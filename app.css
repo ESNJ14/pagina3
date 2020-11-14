@@ -1,0 +1,520 @@
+body{margin: 0;}
+
+#bnegra li, #horaris{
+	display: inline-block;
+}
+
+.contener{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: cursive;;
+}
+
+
+#superior{	
+    color: white;
+    background: #223140;
+    list-style: none;
+    font-size: 12px;
+    font-family: cursive;
+    padding: 6px 10%;
+}
+#contactar{
+	float: right;
+    display: inline-block;
+}
+
+
+/*-----------------barra trasnparente----------------------------------*/
+
+    #superiortrs{	
+        color: white;    
+    	background-size: 100%;
+    	height: 25cm;
+        background-image: url(img/gsequip.jpg);
+        background-repeat: no-repeat;
+        font-family: cursive;
+    }
+
+    #brra{
+    	padding: 3% 0;
+    }
+
+    #brra p{
+    	font-size: 30px;
+    }
+
+    #brra img{
+    	width: 10%;
+        float: left;
+        margin-inline-end: 1%;    
+    }
+
+    #titcont{
+        display: inline-block;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: thin;
+        padding: 1%;
+    }
+
+    #bopmenu{
+    	padding: 5% 0;
+        display: inline-flex;
+        float: right;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: thin;
+    }
+
+    #bopmenu a{
+    	color: white;
+        text-decoration: none;
+    }
+    .mar{
+    	margin: 0 0 0 10px;
+    }
+    .sinpt{
+    	list-style: none;
+        margin: 0px 10px 0 0;
+    }
+/*------------------------------------------------------------------------*/
+
+/*----------------------menu------------------------------------*/
+
+    #supliin{
+        float: right;
+        margin: 0 5% 0 0;
+        border-radius: 36%;
+        background-color: #4848485c;
+    }
+
+    #encabezado{
+    	text-align: center;
+    }
+
+    #supliin h1{
+    	font-size: 2cm;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 3px;
+    }
+    #supliin h2{
+    	font-size: 65px;
+        margin: 0 0 50px;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 3px;
+    }
+
+    #supliin p{
+        padding: 0 82px;
+        font-size: 25px;
+        width: 44%;
+        margin-left: 11%;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .4px;
+    }
+/*------------------------------------------------------------------------*/
+
+/*-----------------------clasificacion rangos-----------------------------*/
+    #expdeav{
+        background-image: url(img/gremrtes.png);
+        text-align: center;
+        color: white;
+        background-size: 100%;
+        height: 35.5cm;
+    }
+    .expe{
+    	padding: 3% 0;
+    }
+    .expe h1{	
+    	font-size: 1.6cm;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 3.5px;
+    }
+
+    .expe img{
+    	width: 4cm;
+    }
+
+    .expe p{
+    	font-size: 20px;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .4px;
+    }
+
+    .repw{
+        width: 7.5cm;
+        margin: 2% 0;
+        position: relative;   
+    }
+
+    .rans{
+    	display: inline-block;	
+    }
+    #r1{
+    	text-align: right;
+    	width: 25%;
+    	font-size: 14px;
+        direction: rtl;
+    }
+
+    #r1 h1,#r2 h1{
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 1.4px;
+    }
+
+    #r1 p,#r2 p{
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .2px;
+        font-weight: 600;
+    }
+
+    #r2{
+        float: right;
+        width: 25%;
+        margin-bottom: -18cm;
+        font-size: 14px;
+    }
+
+    #rango{
+        text-align: -webkit-left;
+        position: relative;
+        bottom: 19.5cm;
+    }
+    #rango li{   
+        background-color: #00000052;
+        border-radius: 4px;
+        padding: 0.1px 6px;
+        margin-bottom: 4%;
+    }
+/*------------------------------------------------------------------------*/
+
+/*------------------------separador---------------------------------------*/
+
+    #separator {
+        background-color: #223140;
+        padding: 30px 0;
+        color: white;
+    }
+
+    #tlinea p{
+        font-size: 25px;
+        width: 65%;
+        margin-right: 20%;
+        display: inline-block;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .5px;
+    }
+
+    #tlinea a{
+        border: solid;
+        font-size: 25px;
+        padding: 16px;
+        color: white;
+        border-radius: 20px;
+        text-decoration: none;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .5px;
+    }
+/*----------------------------tipos de claces-----------------------------*/
+
+    #tcl{
+        color: white;    
+        background-size: 100%;
+        margin-top: -2cm;
+        background-image: url(img/mavent.jpg);
+        text-align: center;
+    }
+
+    #fimov img {
+        width: 80%;
+    }
+
+    #fimov li {
+        display: inline-block;
+        width: 25%;
+        margin: 2%;
+        color: white;
+        text-align: center;
+    }
+
+    .tclaces{
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 5.5px;
+        font-size: 3cm;
+        margin-top: 75px;
+        margin-bottom: 20px;
+    }
+
+    #fimov h2{
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 1.5px;
+    }
+
+    #fimov p{
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .8px;
+        font-weight: 600;
+    }
+    #tavent{
+        background-color: #00000052;
+        padding: 12% 7%;
+    }
+
+
+    
+
+
+
+/*------------------------------------------------------------------------*/
+
+/*-----------------------ima que se mueve------------------------------*/
+
+    #imueve{
+    background-image: url(img/gshie.jpg);
+    background-size: 100%;
+    height: 17.3cm;
+    color: white;
+    text-align: center;
+    }
+
+    .contener1{  
+    background-size: cover;
+    background:fixed no-repeat 80% 20%;
+    }
+
+    #bamueve{
+    background: #44618099;
+    padding: 4% 15%;
+    }
+
+    #timueve p{
+    font-size: 20px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: .3px;
+    }
+
+    #timueve h1{
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    }
+
+    .imu{
+        width: 15%;
+    }
+/*------------------------------------------------------------------------*/
+
+/*----------------------calendario----------------------------------------*/
+
+    #hracios{
+        color: white;    
+        background-size: 100%;
+        height: 25cm;
+        margin-top: -2cm;
+        background-image: url(img/gsclas.jpg);
+        text-align: center;
+    }
+
+    #calendario{
+        padding:  .5%;
+    }
+
+    #calendario li {
+        display: inline-block;
+        width: 140px;
+        color: white;
+        text-align: center;
+        margin: 1px;
+        padding: 6px 0;
+    }
+
+    .hclase{
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 5.5px;
+        font-size: 2cm;
+        margin-top: 75px;
+        margin-bottom: 20px;
+    }
+
+    #calendario h2{
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .5px;
+        margin: 0;
+        font-size: large;
+    }
+
+    #calendario p{
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .2px;
+        font-weight: 600;
+        font-size: small;
+    }
+    
+    .hras{
+        background-color: #5e5d60e3;
+        padding: 2%;
+    }
+
+    .hras2{
+        background-color: #d2a936e0;
+        padding: 2%;
+    }
+
+    .hras3{
+        background-color: #49aba2d1;
+        padding: 2%;
+    }
+
+    .hras4{
+        background-color: #91b984de;
+        padding: 2%;
+    }
+
+    .hras5{
+        background-color: #d04d43c9;
+        padding: 2%;
+    }
+
+    #ho1, #ho4{
+        margin-bottom: -11px;
+        display: inline-flex;
+        margin: -2px 0;
+    }
+    
+    #ho2{
+        margin-bottom: -11px;
+        display: inline-flex;
+        margin: -4px 0;
+    }
+    
+    #ho3{
+        margin-bottom: -11px;
+        display: inline-flex;
+        margin: -7px 0;
+    }   
+    
+    #ho5{
+        margin-bottom: -11px;
+        display: inline-flex;
+        margin: -8px 0;
+    }
+
+    .lav{
+        background: #ffffffdb;
+
+    }
+
+    #blan h2{
+        position: relative;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 1px;
+        margin: 0;
+        font-size: large;
+        top: 35%;
+    }
+
+    .blanco{
+        background: #ffffffdb;
+        padding: 2%;
+        height: 137px;
+    }
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------*/
+
+/*------------------------linea2----------------------------------*/
+    #separator2 {
+        background-color: #223140;
+        color: white;
+        padding: 4% 15%;
+    }
+
+    .maest{        
+        width: 5cm;
+        margin: 0 3% 0 1%;
+        display: inline-block;
+    }
+
+    .rs{        
+        width: 1cm;
+        margin: .5%;
+        display: inline-block;    
+    }
+
+    #lineaa2{
+        display: inline-block;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .5px;
+        margin: 0;
+    }
+
+    #borli{
+        border: solid;
+        padding: 3%;
+    }
+
+    #lineaa2 p{
+        font-size: 15px;
+        width: 80%;
+        margin-right: 20%;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .3px;
+    }
+
+
+    #tlinea2{
+        font-size: 15px;
+        width: 40%;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: .3px;
+        display: inline-block;
+    }   
+
+/*------------------------------------------------------------------------*/
+
+/*-------------------------segunda sec-----------------------------------*/
+    #superiortrs2{   
+        color: white;    
+        background-size: 100%;
+        height: 15cm;
+        background-image: url(img/campen.png);
+        background-repeat: no-repeat;
+    }
+
+    #superiot{   
+        padding-top: 5%;
+        float: right;
+        width: 80%;
+    }
+
+    #tinte2{
+        padding: 5%;
+        margin: 0 5% 0 0;
+        border-radius: 36%;
+        text-align: right;
+        background-color: #4848485c;
+    }
+
+    #tinte2 h1{
+       font-size: 1.5cm;
+       -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 3px;
+    }
+    #tinte2 h2{
+       font-size: 50px;
+       -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 2.5px;
+    }
+
+    #tinte2 p{
+       font-size: 20px;
+       font-weight: 600;
+       -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 1px;
+    }
